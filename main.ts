@@ -15,7 +15,7 @@ radio.onReceivedString(function (receivedString) {
             # # # # #
             `)
         for (let index = 0; index < 10; index++) {
-            Variable += -25
+            Variable += -10
             led.setBrightness(Variable)
             basic.pause(40)
         }
@@ -30,4 +30,4 @@ radio.onReceivedString(function (receivedString) {
 })
 let Variable = 0
 radio.setGroup(25)
-Variable = 255
+Variable = 100
